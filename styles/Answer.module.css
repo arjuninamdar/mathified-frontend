@@ -1,0 +1,53 @@
+#logo {
+    font-size: 45px;
+    color: #1cb092;
+    display: block;
+    cursor: pointer; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+#maincontainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#maincontainer h1 {
+    margin: 0; 
+}
+
+#maincontainer h3 {
+    color: gray; 
+    font-size: 15px; 
+}
+
+#maincontainer img {
+    width: 400px; 
+}
+
+#answertitle {
+    text-align: center; 
+    font-size: 30px; 
+    margin-top: 50px; 
+}
+
+.answercontainer {
+    border: 2px solid black; 
+    width: 400px; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-bottom: 30px; 
+}
+
+.answertext {
+    font-size: 20px; 
+
+}
+
+.dateposted {
+    font-size: 10px; 
+    color: gray; 
+}
+

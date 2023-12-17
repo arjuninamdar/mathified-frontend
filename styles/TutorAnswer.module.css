@@ -1,0 +1,87 @@
+.importantbigtext {
+    text-align: center;
+}
+
+#mainmainmaincontainer{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#maincontainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+#maincontainer h1 {
+    margin: 0; 
+}
+
+#maincontainer h3 {
+    color: gray; 
+    font-size: 15px; 
+}
+
+#maincontainer img {
+    width: 400px; 
+}
+
+#answertitle {
+    text-align: center; 
+    font-size: 30px; 
+    margin-top: 50px; 
+}
+
+.answercontainer {
+    border: 2px solid black; 
+    width: 400px; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-bottom: 30px; 
+}
+
+.answertext {
+    font-size: 20px; 
+
+}
+
+.dateposted {
+    font-size: 10px; 
+    color: gray; 
+}
+
+#questioninput {
+    border: 2px solid gray; 
+    border-radius: 10px; 
+    font-size: 15px; 
+    width: 400px; 
+    height: 100px; 
+    padding: 10px; 
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+#maincontainer form {
+    text-align: center;
+}
+.coolbutton {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #1cb092;
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.coolbutton:hover {
+    background-color: gray;
+}

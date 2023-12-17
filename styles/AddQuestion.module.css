@@ -1,0 +1,53 @@
+#maincontainer {
+    text-align: center;
+}
+
+
+#maincontainer h1 {
+    font-size: 40px; 
+}
+
+.coolbutton {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #1cb092;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+
+.coolbutton:hover {
+    background-color: gray;
+}
+
+#questioninput {
+    border: 2px solid gray; 
+    border-radius: 10px; 
+    font-size: 15px; 
+    width: 400px; 
+    height: 100px; 
+    padding: 10px; 
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+#filedisplaynone {
+    display: none; 
+}
+
+#labelstyle {
+    padding: 15px; 
+    background-color: #1cb092;
+    border-radius: 10px;
+    color: white; 
+    cursor: pointer; 
+}
+
+#labelstyle:hover {
+    background-color: gray;
+}

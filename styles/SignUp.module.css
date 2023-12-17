@@ -1,0 +1,95 @@
+#signupmaincontainer {
+    text-align: center;
+}
+
+
+#signupformcontainer {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+#signupformlogo {
+    font-size: 45px;
+    color: #1cb092;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+.submitforminput {
+    display: block;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    -webkit-appearance: none;
+    padding: 5px;
+    border: none;
+    border: 1px solid #c9c9c9;
+}
+
+#signupformtitle {
+    font-size: 30px;
+    display: block;
+    text-align: left;
+    margin-top: 70px;
+    
+}
+
+.signupformmainbanner {
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+
+#submitformusername {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#submitformpassword {
+    margin-top: 10px;
+}
+
+
+.signupformsubmitbutton {
+    color: white;
+    border: none;
+    -webkit-appearance: none;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3498db;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width:310px;
+} 
+
+.signupformsubmitbutton:hover {
+    background-color: gray; 
+} 
+
+#alreadyhaveanaccount {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+
+#alreadyhaveanaccount a {
+    color: #1cb092;
+    text-decoration: none; 
+}
+
+#alreadyhaveanaccount a:hover {
+    color: gray;
+}
+
+#errormessage  {
+    color: red; 
+    font-size: 10px; 
+}

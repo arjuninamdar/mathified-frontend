@@ -1,0 +1,95 @@
+#title {
+    color: #1cb092;
+    font-size: 50px;
+    text-align: center; 
+}
+
+#homemaincontainer {
+    text-align: center;
+}
+
+#questioncontainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;     
+}
+
+.questiontitle {
+    margin: 0; 
+}
+
+.questioncontainermain {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 10px; 
+}
+
+.dateposted {
+    font-size: 20px; 
+}
+
+.questionbutton {
+    border: none; 
+    background-color: #1cb092;
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+}
+
+.questionbutton:hover {
+    background-color: gray;
+}
+
+
+.questionbutton h2 {
+    color: white; 
+    font-size: 15px; 
+    margin: 0; 
+}
+
+#addbutton {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    border-radius: 100px; 
+    border: none; 
+    width: 100px; 
+    height: 100px; 
+    cursor: pointer; 
+    transition: box-shadow .5s;
+    text-decoration: none;
+    background-color: #1cb092;
+
+}
+
+#addbutton:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,1); 
+}
+
+#addbutton h1 {
+    margin-top: 25px; 
+    color: white; 
+}
+
+.deleteButton {
+    border: none; 
+    background-color: red;
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 10px;
+    margin: 10px;  
+}
+
+.deleteButton:hover {
+   background-color: gray;
+}
+
+.deleteButton h2 {
+    color: white; 
+    font-size: 15px; 
+    margin: 0; 
+}
+
+
